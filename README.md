@@ -34,6 +34,7 @@ This is a sample of how of a docker conatiner running a Flask application!
    ```
   
  ### Directory Strucutre
+ ```
  .
 ├── app_main
 │   ├── Main.py
@@ -43,4 +44,4 @@ This is a sample of how of a docker conatiner running a Flask application!
 ├── Dockerfile
 ├── README.md
 └── requirements.txt
-
+```
