@@ -23,9 +23,14 @@ This is a sample of how of a docker conatiner running a Flask application!
    ```sh
    docker build -t docker-flask .
    ```
-5. Run the docker image in detached mode(-d) and bind your container port to a port on the server (-p <port>:<port>)
+5. Run the docker image in detached mode(-d) and bind your container port to a port on the server (-p)
    ```sh 
    docker run -d -p 5000:5000 docker-flask
    ```
     
-6. You will now be able to hit the aplication by navigating to <hostip>:5000
+6. You will now be able to hit the aplication via a browser or just curl the page. 
+   ```sh 
+   curl -k /serverip/:5000
+   ```
+  
+   
