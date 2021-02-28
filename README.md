@@ -27,3 +27,5 @@ This is a sample of how of a docker conatiner running a Flask application!
    ```sh 
    docker run -d -p 5000:5000 docker-flask
    ```
+    
+6. You will now be able to hit the aplication by navigating to <hostip>:5000
