@@ -33,4 +33,14 @@ This is a sample of how of a docker conatiner running a Flask application!
    curl -k /serverip/:5000
    ```
   
-   
+ ### Directory Strucutre
+ .
+├── app_main
+│   ├── Main.py
+│   └── templates
+│       ├── base.html
+│       └── index.html
+├── Dockerfile
+├── README.md
+└── requirements.txt
+
