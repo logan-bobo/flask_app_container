@@ -6,7 +6,7 @@ This is a sample of a docker conatiner running a Flask application!
 * Docker
 
 
-### Installation
+### Building and running the container
 1. Ensure Docker is isntalled and running 
     ```sh
     docker version && systemctl status docker
