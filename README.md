@@ -1,6 +1,6 @@
 <!-- GETTING STARTED -->
 ## Getting Started
-This is a sample of how of a docker conatiner running a Flask application! 
+This is a sample of a docker conatiner running a Flask application! 
 
 ### Prerequisites
 * Docker
