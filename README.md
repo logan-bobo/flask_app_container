@@ -7,7 +7,7 @@ This is a sample of a docker conatiner running a Flask application!
 
 
 ### Building and running the container
-1. Ensure Docker is isntalled and running 
+1. Ensure Docker is installed and running 
     ```sh
     docker version && systemctl status docker
     ```
