@@ -1,5 +1,6 @@
 <!-- GETTING STARTED -->
 # Getting Started
+![Build Status](https://github.com/logan-bobo/flask_app_container/actions/workflows/docker-image.yml/badge.svg)
 
 This is a sample container running a Flask application! This will mainly be used when testing deployments and platfroms like K8s, K3s, ECS, EKS, AKS or GKE.
 
