@@ -1,7 +1,7 @@
 <!-- GETTING STARTED -->
 # Getting Started
 
-This is a sample container running a Flask application!
+This is a sample container running a Flask application! This will mainly be used when testing deployments and platfroms like K8s, K3s, ECS, EKS, AKS or GKE.
 
 ## Prerequisites
 
