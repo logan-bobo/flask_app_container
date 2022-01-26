@@ -1,56 +1,39 @@
 <!-- GETTING STARTED -->
-## Getting Started
+# Getting Started
 
 This is a sample container running a Flask application!
 
-### Prerequisites
+## Prerequisites
 
 * Docker
+* make
 
-### Building and running the container
+## Building and running the container
 
-1. Ensure Docker is installed and running
-
-    ```sh
-    docker version && systemctl status docker
-    ```
-
-2. Clone the repo
+1. Build the image
 
    ```sh
-   git clone https://github.com/logan-bobo/flask_app_container.git
+   make build
    ```
 
-3. CD to repository
+2. Run the container image
 
    ```sh
-   cd flask_app_container
+   make run
    ```
 
-4. Build the docker image
+3. You will now be able to hit the aplication via a browser or just curl the page.
 
    ```sh
-   docker build -t container-flask .
-   ```
-
-5. Run the docker image in detached mode(-d) and bind your container port to a port on the server (-p)
-
-   ```sh
-   docker run -d -p 5000:5000 container-flask
-   ```
-
-6. You will now be able to hit the aplication via a browser or just curl the page.
-
-   ```sh
-   curl -k 127.0.0.1:5000
+   make test
    ```
   
-### Directory Strucutre
+## Directory Structure
 
- ```
- .
-├── app.py
-├── Dockerfile
-├── README.md
-└── requirements.txt
-```
+   ```sh
+   .
+   ├── app.py
+   ├── Dockerfile
+   ├── README.md
+   └── requirements.txt
+   ```
