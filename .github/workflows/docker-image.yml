@@ -15,4 +15,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: |
+        TAG=$(git rev-parse --short HEAD)
+        docker build . --file Dockerfile --tag python-flask:TAG 
+        docker run python-flask:$TAG
+        curl -k --fail 127.0.0.1:5000
