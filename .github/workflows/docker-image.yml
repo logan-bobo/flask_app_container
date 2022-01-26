@@ -18,5 +18,4 @@ jobs:
       run: |
         TAG=$(git rev-parse --short HEAD)
         docker build . --file Dockerfile --tag python-flask:$TAG 
-        docker run -d -p 5000:50000 python-flask:$TAG
-        curl -k --fail 127.0.0.1:5000
+
