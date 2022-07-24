@@ -2,7 +2,7 @@
 # Getting Started
 ![Build Status](https://github.com/logan-bobo/flask_app_container/actions/workflows/docker-image.yml/badge.svg)
 
-This is a sample container running a Flask application! This will mainly be used when testing deployments and platfroms like K8s, K3s, ECS, EKS, AKS or GKE.
+This is a sample container running a Flask application! This will mainly be used when testing deployments and platforms like K8s, K3s, ECS, EKS, AKS or GKE.
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ This is a sample container running a Flask application! This will mainly be used
    make run
    ```
 
-3. You will now be able to hit the aplication via a browser or just curl the page.
+3. You will now be able to hit the application via a browser or just curl the page.
 
    ```sh
    make test
