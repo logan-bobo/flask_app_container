@@ -2,10 +2,7 @@ build:
 	docker build . -t flask-app:latest
 
 run:
-	docker run -d -p 5000:5000 flask-app:latest
-
-kill:
-	docker kill flask-app
-
+	docker run -p 5050:5000 flask-app:latest
+	
 test:
-	curl -k 127.0.0.1:5000
+	curl -k 127.0.0.1:5050
